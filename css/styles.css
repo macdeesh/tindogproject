@@ -1,0 +1,266 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+h5 {
+  /* font-family: 'Ubuntu', sans-serif; */
+  color: white;
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 1.5;
+  margin: 3rem 0;
+}
+
+p {
+  color: #343A40;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Title */
+.title {
+  background-color: #FF4C68;
+  margin: 0;
+  text-align: left;
+}
+
+.heading-text {
+  color: white;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.img-app {
+  transform: rotate(20deg);
+  width: 50%;
+  margin-left: 35%;
+  position: absolute;
+}
+
+/* navbar */
+.navbar {
+
+  font-weight: lighter;
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
+.nav-item {
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* features */
+.features {
+  padding: 10%;
+  position: relative;
+  background-color: white;
+}
+
+.icon-feature {
+  color: #EF8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.icon-feature:hover {
+  color: #FF4C68;
+}
+
+/* testimonials Carousel */
+
+.testimonials {
+  background-color: #EF8172;
+  color: #fff;
+  height: 100%;
+
+}
+
+.carousel-text {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-bottom: 3%;
+  padding-top: 3%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 13%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.cat-text {
+  height: auto;
+  padding: 2.8rem 0;
+}
+
+.carousel-item {
+  padding: 5% 10% 1%;
+}
+
+.press-section {
+  background-color: #EF8172;
+  padding: 1% 0 1%;
+  margin: auto;
+}
+
+.logo-section {
+  margin: 3rem;
+}
+
+.insider-logo {
+  width: 70%;
+}
+
+.press-logo {
+  width: 40%;
+}
+
+.mashable-logo {
+  width: 50%;
+}
+
+/* Pricing */
+.card-header {
+  font-family: 'Ubuntu';
+}
+
+.pricing-p {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.pricing {
+  padding: 6rem;
+}
+
+.col-price {
+  padding: 3% 2%;
+}
+
+/* call to action */
+.cta {
+  background-color: #FF4C68;
+  padding: 3% 20%;
+}
+
+.cta-button {
+  margin: 3rem 2rem;
+  padding: 0.5rem 2rem;
+}
+
+/* footer */
+.footer {
+  margin: 2rem 1rem 3rem;
+}
+
+.icon-footer {
+  color: black;
+  font-size: 1.7rem;
+  margin: 1rem 1rem 2rem;
+}
+
+.icon-footer:hover {
+  color: #343A40;
+}
+
+/* media query */
+@media (max-width: 991px) {
+
+/* Title */
+
+  .img-app {
+    transform: rotate(0);
+    margin: 5% auto;
+    display: block;
+    position: relative;
+    width: 40%;
+    margin-top: 10%;
+  }
+
+  .heading-title {
+    text-align: center;
+  }
+
+  .heading-text {
+    font-size: 3rem;
+  }
+
+  .btn-title {
+    margin-top: 5%;
+  }
+
+/* Features */
+
+  .features {
+    padding: 5%;
+  }
+
+/* call to action */
+
+  .cta-button {
+    margin-bottom: 2rem;
+  }
+
+/* testimonials */
+
+.carousel-text {
+   font-size: 1.5rem;
+  }
+
+  .logo-section {
+    margin: 2rem 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .insider-logo {
+    width: 100%;
+    margin-top: 0.3rem;
+  }
+
+  .press-logo {
+    width: 50%;
+  }
+
+  .mashable-logo {
+    width: 60%;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+  }
+}
